@@ -39,13 +39,22 @@ These screenshots show how the UI adapts on desktop, tablet, and mobile devices.
 
 ### **Desktop**
 
-![Desktop Screenshot](./src/pictures/ScreenshotDesktop.png)
+<p align="center">
+  <img src="./src/pictures/ScreenshotDesktop.png" alt="Desktop Screenshot" width="80%">
+</p>
 
 ### **Tablet**
 
-![Tablet Screenshot](./src/pictures/ScreenshotTablet.png)
+<p align="center">
+  <img src="./src/pictures/ScreenshotTablet.png" alt="Tablet Screenshot" width="70%">
+</p>
 
 ### **Mobile**
 
-![Mobile Screenshot 1](./src/pictures/ScreenshotMobileBurger.png)  
-![Mobile Screenshot 2](./src/pictures/ScreenshotMobileSidebar.png)
+<p align="center">
+  <img src="./src/pictures/ScreenshotMobileBurger.png" alt="Mobile Screenshot 1" width="40%">
+</p>
+
+<p align="center">
+  <img src="./src/pictures/ScreenshotMobileSidebar.png" alt="Mobile Screenshot 2" width="40%">
+</p>
