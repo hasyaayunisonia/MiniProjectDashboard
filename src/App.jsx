@@ -5,15 +5,31 @@ import Menu21 from "./pages/Menu21";
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
+import {
+  FiLogOut,
+  FiChevronDown,
+  FiChevronUp,
+  FiMenu,
+  FiX,
+} from "react-icons/fi";
 import "./App.css";
 
 export default function App() {
+  const [sidebarOpen, setSidebarOpen] = useState(false);
+
   return (
     <BrowserRouter>
-      <div className="flex">
-        <Sidebar />
+      <div className="flex md:ml-64">
+        <button
+          className="md:hidden fixed top-4 left-4 z-50 text-gray-700"
+          onClick={() => setSidebarOpen(!sidebarOpen)}
+        >
+          {sidebarOpen ? <FiX size={28} /> : <FiMenu size={28} />}
+        </button>
 
-        <div className="flex-1 p-6 bg-gray-50 min-h-screen">
+        <Sidebar sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} />
+
+        <div className="flex-1 bg-gray-50 p-6">
           <Routes>
             <Route path="/" element={<Menu1 />} />
             <Route path="/menu2-1" element={<Menu21 />} />
