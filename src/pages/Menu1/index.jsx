@@ -10,10 +10,11 @@ export default function Menu1() {
       <MapsWidget />
 
       <div className="flex flex-wrap gap-4 mt-4">
-        <div className="w-full md:w-[49%]">
+        <div className="w-full md:w-[48%] lg:w-[49%]">
           <Chart1 />
         </div>
-        <div className="w-full md:w-[49%]">
+
+        <div className="w-full md:w-[48%] lg:w-[49%]">
           <Chart2 />
         </div>
       </div>
