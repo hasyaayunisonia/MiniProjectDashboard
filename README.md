@@ -33,12 +33,19 @@ This application is created based on the requirements provided in the challenge.
 
 You can access the website at the following link [here](https://challenge-dashboard.netlify.app/)
 
-Responsive preview — here’s how the UI adapts on desktop, tablet, and mobile.
-**Desktop**
-![alt text](src/pictures/ScreenshotDesktop.png)
+## Screenshots (Responsive Preview)
 
-**Tablet**
-![alt text](src/pictures/ScreenshotTablet.png)
+These screenshots show how the UI adapts on desktop, tablet, and mobile devices.
 
-**Mobile**
-![alt text](src/pictures/ScreenshotMobileBurger.png) ![alt text](src/pictures/ScreenshotMobileSidebar.png)
+### **Desktop**
+
+![Desktop Screenshot](./src/pictures/ScreenshotDesktop.png)
+
+### **Tablet**
+
+![Tablet Screenshot](./src/pictures/ScreenshotTablet.png)
+
+### **Mobile**
+
+![Mobile Screenshot 1](./src/pictures/ScreenshotMobileBurger.png)  
+![Mobile Screenshot 2](./src/pictures/ScreenshotMobileSidebar.png)
