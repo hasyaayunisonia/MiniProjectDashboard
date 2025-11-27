@@ -1,16 +1,44 @@
-# React + Vite
+# Agro Techno Solution – Challenge Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project was developed as part of the technical challenge from Agro Techno Solution.  
+The application is built using React with several supporting libraries to display data, visualize information, and render an interactive map.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack
 
-## React Compiler
+This project uses the following technologies:
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+- Node v22.17.0
+- React + Vite
+- JavaScript
+- Tailwind CSS
+- Axios
+- Leaflet.js
+- Recharts
+- Additional supporting libraries when needed during development
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Project Overview
+
+This application is created based on the requirements provided in the challenge. The main objectives include:
+
+- Fetching and displaying data from an API
+- Visualizing data using charts
+- Displaying map coordinates using Leaflet.js
+- Maintaining a clean and responsive UI using Tailwind CSS
+
+---
+
+You can access the website at the following link [here](https://challenge-dashboard.netlify.app/)
+
+Responsive preview — here’s how the UI adapts on desktop, tablet, and mobile.
+**Desktop**
+![alt text](src/pictures/ScreenshotDesktop.png)
+
+**Tablet**
+![alt text](src/pictures/ScreenshotTablet.png)
+
+**Mobile**
+![alt text](src/pictures/ScreenshotMobileBurger.png) ![alt text](src/pictures/ScreenshotMobileSidebar.png)
