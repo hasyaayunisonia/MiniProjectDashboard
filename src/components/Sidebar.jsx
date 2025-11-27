@@ -1,7 +1,11 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { FiLogOut, FiChevronDown, FiChevronUp } from "react-icons/fi";
-import { MdOutlineDashboard, MdFormatListBulleted } from "react-icons/md";
+import {
+  MdOutlineDashboard,
+  MdFormatListBulleted,
+  MdIntegrationInstructions,
+} from "react-icons/md";
 import images from "../assets";
 
 export default function Sidebar({ sidebarOpen, setSidebarOpen }) {
@@ -32,7 +36,9 @@ export default function Sidebar({ sidebarOpen, setSidebarOpen }) {
             <Link
               onClick={() => setActiveMenu("menu1")}
               className={`px-6 flex items-center gap-2.5 font-medium transition-colors ${
-                activeMenu === "menu1" ? "text-[#F9B487]" : "text-[#F5E5E1]"
+                activeMenu === "menu1"
+                  ? "text-[#F9B487] bg-[#174143]"
+                  : "text-[#F5E5E1]"
               } hover:text-[#F9B487]`}
               to="/"
             >
@@ -46,7 +52,9 @@ export default function Sidebar({ sidebarOpen, setSidebarOpen }) {
                   setActiveMenu("menu2");
                 }}
                 className={`px-6 cursor-pointer font-medium flex items-center gap-2.5 transition-colors ${
-                  activeMenu === "menu2" ? "text-[#F9B487]" : "text-[#F5E5E1]"
+                  activeMenu === "menu2"
+                    ? "text-[#F9B487] bg-[#174143]"
+                    : "text-[#F5E5E1]"
                 } hover:text-[#F9B487]`}
               >
                 <MdFormatListBulleted size={22} /> Menu 2{" "}
@@ -57,14 +65,14 @@ export default function Sidebar({ sidebarOpen, setSidebarOpen }) {
                 <div className="ml-4 mt-2">
                   <Link
                     onClick={() => setActiveMenu("menu2-1")}
-                    className={`px-6 block transition-colors ${
+                    className={`flex items-center gap-2.5 px-6 transition-colors ${
                       activeMenu === "menu2-1"
-                        ? "text-[#F9B487]"
+                        ? "text-[#F9B487] bg-[#174143]"
                         : "text-[#F5E5E1]"
                     } hover:text-[#F9B487]`}
                     to="/menu2-1"
                   >
-                    Menu 2-1
+                    <MdIntegrationInstructions size={20} /> Menu 2-1
                   </Link>
                 </div>
               )}
