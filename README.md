@@ -1,6 +1,6 @@
-# Agro Techno Solution – Challenge Project
+# Agora Techno Solution – Challenge Project
 
-This project was developed as part of the technical challenge from Agro Techno Solution.  
+This project was developed as part of the technical challenge from Agora Techno Solution.  
 The application is built using React with several supporting libraries to display data, visualize information, and render an interactive map.
 
 ---
